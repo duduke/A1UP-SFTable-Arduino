@@ -1,0 +1,9 @@
+{
+  "cpu": {
+    "fqbn": "arduino:avr:leonardo",
+    "name": "Arduino Leonardo",
+    "type": "serial"
+  },
+  "secrets": [],
+  "included_libs": []
+}
