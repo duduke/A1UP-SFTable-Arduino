@@ -1,0 +1,7 @@
+Partlist exported from C:/Users/Quasari/Documents/EAGLE/projects/A1Up20pin/12PIN.sch at 9/26/2020 9:44 PM
+
+Qty Value                              Device                             Package                             Parts                Description                                                                                                     POPULARITY SF_SKU   
+2                                      CONN_025MM                         SCREWTERMINAL-5MM-2                 POWERSWITCH, SPEAKER Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections            PRT-08432
+1                                      PINHD-2X6                          2X06                                CONNECTOR            PIN HEADER                                                                                                      8                   
+1   ARDUINO_UNO_R3_SHIELDBASIC         ARDUINO_UNO_R3_SHIELDBASIC         UNO_R3_SHIELD                       B1                   Arduino R3 Shield Footprint                                                                                                         
+1   SPARKFUN_LOGIC_LEVEL_CONVERTERLOCK SPARKFUN_LOGIC_LEVEL_CONVERTERLOCK SPARKFUN_LOGIC_LEVEL_CONVERTER_LOCK B2                   SparkFun Logic Level Converter -Bi-Directional                                                                                      
