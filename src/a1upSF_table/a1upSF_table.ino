@@ -54,7 +54,7 @@ void loop() {
   writeJoysticks();
   
   writeVolumeSwitch();
-  // check if p1 start is being pressed.
+  // check if p1 start is being pressed for 5secs or more, and send a keyboard ESC signal
   if (fixers[0][5] > 1) {
     if (!check_exit) readyExit();
     

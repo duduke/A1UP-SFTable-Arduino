@@ -102,32 +102,19 @@ void writeJoysticks()
   }
 }
 
-// presses the key combo to flip screen
-void writeScreenRotation(KeyboardKeycode direction) 
-{
-  Keyboard.press(KEY_LEFT_CTRL);
-  Keyboard.press(KEY_LEFT_ALT);
-  Keyboard.press(direction);
-  delay(5);
-  Keyboard.release(direction);
-  Keyboard.release(KEY_LEFT_ALT);
-  Keyboard.release(KEY_LEFT_CTRL);
-}
-
-// checks the volume switch and flips screen accordingly
+// checks the volume switch and adjust volume accordingly
 void writeVolumeSwitch()
 {
   int oldState = fixers[0][4];
   
   if (checkButtonInput(0,4))
   {
-    if (oldState == 1) writeScreenRotation(KEY_RIGHT);
-  }
+    if (oldState == 1) Keyboard.write(MEDIA_VOLUME_DOWN);
   
   oldState = fixers[0][12];
   
   if (checkButtonInput(0, 12))
   {
-    if (oldState == 1) writeScreenRotation(KEY_UP);
+    if (oldState == 1) Keyboard.write(MEDIA_VOLUME_UP);
   }
 }
