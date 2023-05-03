@@ -50,7 +50,7 @@ Knowing how the UART works and what pins go where, I prototyped my device. Due t
 
 The solution, integrate a level shifter. Thankfully there are already boards that do that which are faily cheap, so I ordered some sparkfun ones, et voila, it worked! 
 
-![View of Circuit Board Design](https://github.com/Christopher-R-Perkins/A1UP-SFTable-Arduino/blob/main/IMAGES/SFTableArduinoShield.png?raw=true)
+![View of Circuit Board Design](https://github.com/QuasariNova/A1UP-SFTable-Arduino/blob/main/IMAGES/SFTableArduinoShield.png?raw=true)
 
 Since I got the circuit working and programmed a solution, all I needed to do was fabricate a board and solder it. One last thing I needed to do was write a shader to split the screen, so that both sides of the table can see the same view. I hadn't done shader coding before, but it was a quick enough learn to do. I decided to use reShade to inject the shader as it becomes automatic after setup.
 
