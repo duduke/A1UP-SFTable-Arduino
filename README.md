@@ -1,3 +1,5 @@
+--This is Just a Test
+
 ## Street Fighter Arcade1Up Table Arduino Interface
 ### Goal of this project
 Arcade1Up uses proprietary circuit boards to interface with the game's circuit board through a 12 pin IDC cable. The goal of this project is to create an interface for any PC that can be hooked directly to their proprietary circuit board via the IDC cable and interpret the output as a couple of joysticks.
